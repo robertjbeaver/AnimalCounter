@@ -5,7 +5,6 @@ public abstract class Animal implements Countable {
         count = 1;
     }
 
-    // implement the countable interface
     @Override
     public String getCountString() {
         return count + " animal";
